@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-#issueTrackerURL = ""
+issueTrackerURL = "https://github.com/macuguita/set-time-doesn-t-reset-day-count/issues"
 license = "GNU LGPL 3.0"
 
 [[mods]]
@@ -12,6 +12,7 @@ description = '''
 This mod makes it so the set time command doesn't reset day count
 '''
 logoFile = "assets/set_time/icon.png"
+displayURL = "https://github.com/macuguita/set-time-doesn-t-reset-day-count"
 
 [[dependencies.set_time]]
 modId = "forge"

@@ -8,7 +8,9 @@
     "macuguita"
   ],
   "contact": {
-    "homepage": "macuguita.com"
+    "homepage": "macuguita.com",
+    "issues": "https://github.com/macuguita/set-time-doesn-t-reset-day-count/issues",
+    "sources": "https://github.com/macuguita/set-time-doesn-t-reset-day-count"
   },
   "license": "LGPL-3.0",
   "icon": "assets/set_time/icon.png",
