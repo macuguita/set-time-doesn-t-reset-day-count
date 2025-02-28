@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "GNU LGPL 3.0"
+
+[[mods]]
+modId = "set_time"
+version = "${version}"
+displayName = "Set time doesn't reset day count"
+authors = "macuguita"
+description = '''
+This mod makes it so the set time command doesn't reset day count
+'''
+logoFile = "assets/set_time/icon.png"
+
+[[dependencies.set_time]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.set_time]]
+modId = "minecraft"
+mandatory = true
+versionRange = "1.20.1"
+ordering = "NONE"
+side = "SERVER"
+

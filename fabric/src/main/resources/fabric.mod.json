@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "set_time",
+  "version": "${version}",
+  "name": "Set time doesn't reset day count",
+  "description": "This mod makes it so the set time command doesn't reset day count",
+  "authors": [
+    "macuguita"
+  ],
+  "contact": {
+    "homepage": "macuguita.com"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/set_time/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.macuguita.set_time.fabric.Set_timeFabric"
+    ]
+  },
+  "mixins": [
+    "set_time.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": ">=1.20.1",
+    "java": ">=17"
+  }
+}
